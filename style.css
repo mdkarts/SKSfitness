@@ -1,0 +1,91 @@
+body {color:white;
+    font-size: 15pt;
+    margin: 0px;
+    padding: 0px;
+    background: url('pexels-cesar-galeão-3289711.jpg');
+    background-size: cover;
+    font-family: 'Baloo Bhaina 2', cursive;
+   
+}
+.left{
+  display: inline-block;
+  
+  position: absolute;
+  left: 34px;
+  top: 12px;
+}
+.left img{
+  width: 46px;
+  position: absolute;
+  left: 24px;
+  
+ 
+
+}
+.left div {
+  
+ text-align: center;
+ line-height: 153px;
+ 
+  
+  text-size:20px; 
+  
+}
+
+.mid {
+  display: block;
+  
+   width: 70%;
+   margin: 10px auto;
+   padding: 0px 23px;
+
+ 
+}
+
+.right {
+   display: inline-block;
+   
+  position: absolute;
+   right: 10px;
+   top: 30px;
+}
+.navbar{
+  display: inline-block;
+}
+.navbar li{
+  color: white;
+  display: inline-block;
+}
+.navbar li a {
+  color: white;
+  text-decoration: none;
+  padding: 34px 24px;
+}
+.navbar li a:hover, .navbar li a.active {
+  text-decoration: underline;
+  color: gray;
+}
+.btn{
+  margin:0px 13px;
+  background-color: black;
+  color: white;
+  padding: 2px 2px;
+  border-radius: 10px;
+  font-size: 15px;
+  border: 2px solid gray;
+  cursor: pointer;
+  font-family: 'Baloo Bhaina 2', cursive;
+  
+}
+.btn:hover{
+  background-color: grey;
+  
+  
+}
+.contaner{
+ 
+  width: 250px;
+  margin: 0px auto;
+  padding: 30px 100px;
+ 
+}
